@@ -80,12 +80,12 @@
     {
       "name": "General OS (Linux)",
       "description": "Linux distrubitions for LP-E-SBC-Star",
-      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHfEXx7659N-sMD0s1R_e075Cka5xxBAtZEJPcNk1vRA&s",
       "subitems": [
         {
           "name": "Ubuntu 24.04 LTS Desktop",
           "description": "Ubuntu 24.04 LTS Desktop by Canonical (Not recommended)",
-          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "icon": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1280px-UbuntuCoF.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
           "url": "https://sizin-sunucunuz.com/images/ubuntu-desktop.img.xz",
           "extract_size": 8589934592,
           "extract_sha256": "SHA256_HASH_BURAYA",
@@ -100,7 +100,7 @@
         {
           "name": "Debian 13 (Bookworm) Server",
           "description": "Official Armbian 13 Server with no extra features.",
-          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcuK2EK1aiU1qCRXGQh-RVX7jIrRNyyPFDaoiYVaJmLg&s=10",
           "url": "https://sizin-sunucunuz.com/images/debian-server.img.xz",
           "extract_size": 3221225472,
           "extract_sha256": "SHA256_HASH_BURAYA",
@@ -117,12 +117,12 @@
     {
       "name": "Android OS",
       "description": "Android builds for LP-E-OS",
-      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+      "icon": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Android_logo_2019_%28stacked%29.svg/3840px-Android_logo_2019_%28stacked%29.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "subitems": [
         {
           "name": "Android 16 Tablet version",
           "description": "AOSP build for LP-E-OS (deneysel)",
-          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "icon": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Android_logo_2019_%28stacked%29.svg/3840px-Android_logo_2019_%28stacked%29.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnailg",
           "url": "https://sizin-sunucunuz.com/images/android-13.img.xz",
           "extract_size": 6442450944,
           "extract_sha256": "SHA256_HASH_BURAYA",
@@ -138,12 +138,12 @@
     {
       "name": "Home Automation",
       "description": "Smart home hub images",
-      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+      "icon": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/New_Home_Assistant_logo.svg/500px-New_Home_Assistant_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "subitems": [
         {
           "name": "Home Assistant OS",
           "description": "DENEYSEL",
-          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "icon": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/New_Home_Assistant_logo.svg/500px-New_Home_Assistant_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
           "url": "https://sizin-sunucunuz.com/images/homeassistant.img.xz",
           "extract_size": 5368709120,
           "extract_sha256": "SHA256_HASH_BURAYA",
