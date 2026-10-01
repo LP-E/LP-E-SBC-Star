@@ -1,0 +1,16 @@
+{
+  "os_list": [
+    {
+      "name": "LP-E OS (RK3588S) - XFCE",
+      "description": "Armbian (aka. debian) based LP-E-OS (XFCE)",
+      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/assets/icon.png",
+      "url": "https://sizin-sunucunuz.com/images/lpe-os-xfce.img.xz",
+      "extract_size": 7516192768,
+      "extract_sha256": "IMAJ_AYRILMIS_SHA256_HASH_KODU",
+      "image_download_size": 2147483648,
+      "release_date": "2026-10-01",
+      "init_format": "systemd",
+      "devices": ["rk3588s"]
+    }
+  ]
+}
