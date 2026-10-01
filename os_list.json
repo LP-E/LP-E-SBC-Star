@@ -9,7 +9,7 @@
           "lp-e-sbc-star"
         ],
         "default": true,
-        "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/assets/icon.png",
+        "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/336047814.png",
         "description": "RK3588s powered Single Board Computer",
         "matching_type": "exclusive",
         "capabilities": []
@@ -28,7 +28,7 @@
     {
       "name": "LP-E OS Desktop for Star)",
       "description": "The Debian 13 (armbian) distro for LP-E-SBC-Star",
-      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/assets/icon.png",
+      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
       "url": "https://sizin-sunucunuz.com/images/lpe-desktop.img.xz",
       "extract_size": 7516192768,
       "extract_sha256": "SHA256_HASH_BURAYA",
