@@ -1,26 +1,44 @@
 {
   "imager": {
+    "latest_version": "1.0.0",
+    "url": "https://github.com/LP-E/LP-E-SBC-Star",
     "devices": [
       {
-        "id": "lp-e-sbc-star",
         "name": "LP-E-SBC-Star (RK3588S)",
-        "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/assets/icon.png"
+        "tags": [
+          "lp-e-sbc-star"
+        ],
+        "default": true,
+        "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/assets/icon.png",
+        "description": "LP-E-SBC-Star Single Board Computer based on RK3588S",
+        "matching_type": "exclusive",
+        "capabilities": []
+      },
+      {
+        "name": "No filtering",
+        "tags": [],
+        "default": false,
+        "description": "Show every possible image",
+        "matching_type": "inclusive",
+        "capabilities": []
       }
     ]
   },
   "os_list": [
     {
-      "name": "LP-E OS - XFCE Desktop",
-      "description": "RK3588S için özel masaüstü imajı",
+      "name": "LP-E OS Desktop (RK3588S)",
+      "description": "Official Desktop environment image for LP-E-SBC-Star",
       "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/assets/icon.png",
-      "url": "https://sizin-sunucunuz.com/images/lpe-xfce.img.xz",
+      "url": "https://sizin-sunucunuz.com/images/lpe-desktop.img.xz",
       "extract_size": 7516192768,
       "extract_sha256": "SHA256_HASH_BURAYA",
       "image_download_size": 2147483648,
       "release_date": "2026-10-01",
+      "init_format": "systemd",
       "devices": [
         "lp-e-sbc-star"
-      ]
+      ],
+      "capabilities": []
     }
   ]
 }
