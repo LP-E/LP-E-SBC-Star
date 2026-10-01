@@ -28,12 +28,12 @@
     {
       "name": "LP-E OS",
       "description": "Official Linux distributions optimized for LP-E-SBC-Star",
-      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/336047814.png",
+      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/336047814.pngg",
       "subitems": [
         {
           "name": "LP-E OS Desktop",
           "description": "Debian 13 (Armbian) with XFCE Desktop Environment",
-          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/336047814.png",
           "url": "https://sizin-sunucunuz.com/images/lpe-desktop.img.xz",
           "extract_size": 7516192768,
           "extract_sha256": "SHA256_HASH_BURAYA",
@@ -48,7 +48,7 @@
         {
           "name": "LP-E OS Server",
           "description": "For headless use.",
-          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/336047814.png",
           "url": "https://sizin-sunucunuz.com/images/lpe-server.img.xz",
           "extract_size": 3221225472,
           "extract_sha256": "SHA256_HASH_BURAYA",
@@ -63,7 +63,7 @@
         {
           "name": "LP-E-OS minimal",
           "description": "The debian (armbian) based , lightweight , designed for daily use linux distrubition!",
-          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/336047814.png",
           "url": "https://sizin-sunucunuz.com/images/lpe-terminal.img.xz",
           "extract_size": 2147483648,
           "extract_sha256": "SHA256_HASH_BURAYA",
