@@ -10,7 +10,7 @@
         ],
         "default": true,
         "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/336047814.png",
-        "description": "RK3588s powered Single Board Computer",
+        "description": "RK3588S powered Single Board Computer",
         "matching_type": "exclusive",
         "capabilities": []
       },
@@ -26,19 +26,136 @@
   },
   "os_list": [
     {
-      "name": "LP-E OS Desktop for Star)",
-      "description": "The Debian 13 (armbian) distro for LP-E-SBC-Star",
+      "name": "LP-E OS",
+      "description": "Official Linux distributions optimized for LP-E-SBC-Star",
+      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/336047814.png",
+      "subitems": [
+        {
+          "name": "LP-E OS Desktop",
+          "description": "Debian 13 (Armbian) with XFCE Desktop Environment",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "url": "https://sizin-sunucunuz.com/images/lpe-desktop.img.xz",
+          "extract_size": 7516192768,
+          "extract_sha256": "SHA256_HASH_BURAYA",
+          "image_download_size": 2147483648,
+          "release_date": "2026-10-01",
+          "init_format": "systemd",
+          "devices": [
+            "lp-e-sbc-star"
+          ],
+          "capabilities": []
+        },
+        {
+          "name": "LP-E OS Server",
+          "description": "For headless use.",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "url": "https://sizin-sunucunuz.com/images/lpe-server.img.xz",
+          "extract_size": 3221225472,
+          "extract_sha256": "SHA256_HASH_BURAYA",
+          "image_download_size": 858993459,
+          "release_date": "2026-10-01",
+          "init_format": "systemd",
+          "devices": [
+            "lp-e-sbc-star"
+          ],
+          "capabilities": []
+        },
+        {
+          "name": "LP-E-OS minimal",
+          "description": "The debian (armbian) based , lightweight , designed for daily use linux distrubition!",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "url": "https://sizin-sunucunuz.com/images/lpe-terminal.img.xz",
+          "extract_size": 2147483648,
+          "extract_sha256": "SHA256_HASH_BURAYA",
+          "image_download_size": 524288000,
+          "release_date": "2026-10-01",
+          "init_format": "systemd",
+          "devices": [
+            "lp-e-sbc-star"
+          ],
+          "capabilities": []
+        }
+      ]
+    },
+    {
+      "name": "General OS (Linux)",
+      "description": "Linux distrubitions for LP-E-SBC-Star",
       "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
-      "url": "https://sizin-sunucunuz.com/images/lpe-desktop.img.xz",
-      "extract_size": 7516192768,
-      "extract_sha256": "SHA256_HASH_BURAYA",
-      "image_download_size": 2147483648,
-      "release_date": "2026-10-01",
-      "init_format": "systemd",
-      "devices": [
-        "lp-e-sbc-star"
-      ],
-      "capabilities": []
+      "subitems": [
+        {
+          "name": "Ubuntu 24.04 LTS Desktop",
+          "description": "Ubuntu 24.04 LTS Desktop by Canonical (Not recommended)",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "url": "https://sizin-sunucunuz.com/images/ubuntu-desktop.img.xz",
+          "extract_size": 8589934592,
+          "extract_sha256": "SHA256_HASH_BURAYA",
+          "image_download_size": 2684354560,
+          "release_date": "2026-09-01",
+          "init_format": "systemd",
+          "devices": [
+            "lp-e-sbc-star"
+          ],
+          "capabilities": []
+        },
+        {
+          "name": "Debian 13 (Bookworm) Server",
+          "description": "Official Armbian 13 Server with no extra features.",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "url": "https://sizin-sunucunuz.com/images/debian-server.img.xz",
+          "extract_size": 3221225472,
+          "extract_sha256": "SHA256_HASH_BURAYA",
+          "image_download_size": 734003200,
+          "release_date": "2026-08-15",
+          "init_format": "systemd",
+          "devices": [
+            "lp-e-sbc-star"
+          ],
+          "capabilities": []
+        }
+      ]
+    },
+    {
+      "name": "Android OS",
+      "description": "Android builds for LP-E-OS",
+      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+      "subitems": [
+        {
+          "name": "Android 16 Tablet version",
+          "description": "AOSP build for LP-E-OS (deneysel)",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "url": "https://sizin-sunucunuz.com/images/android-13.img.xz",
+          "extract_size": 6442450944,
+          "extract_sha256": "SHA256_HASH_BURAYA",
+          "image_download_size": 1610612736,
+          "release_date": "2026-07-20",
+          "devices": [
+            "lp-e-sbc-star"
+          ],
+          "capabilities": []
+        }
+      ]
+    },
+    {
+      "name": "Home Automation",
+      "description": "Smart home hub images",
+      "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+      "subitems": [
+        {
+          "name": "Home Assistant OS",
+          "description": "DENEYSEL",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/czw95g9icxdjhhzc89l3ezbhdkj8.png",
+          "url": "https://sizin-sunucunuz.com/images/homeassistant.img.xz",
+          "extract_size": 5368709120,
+          "extract_sha256": "SHA256_HASH_BURAYA",
+          "image_download_size": 1288490188,
+          "release_date": "2026-09-10",
+          "init_format": "systemd",
+          "devices": [
+            "lp-e-sbc-star"
+          ],
+          "capabilities": []
+        }
+      ]
     }
   ]
 }
