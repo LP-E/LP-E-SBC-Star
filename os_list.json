@@ -63,7 +63,7 @@
         {
           "name": "LP-E-OS minimal",
           "description": "The debian (armbian) based , lightweight , designed for daily use linux distrubition! (çalışıyor bu test için olan bu bu bu)",
-          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/336047814.png",
+          "icon": "https://raw.githubusercontent.com/LP-E/LP-E-SBC-Star/main/Frame 2.png",
           "url": "https://github.com/LP-E/LP-E-OS/releases/download/first/Armbian-unofficial_26.11.0-trunk_Lp-e-sbc-star_bookworm_vendor_6.1.172_minimal.img",
           "extract_size": 2147483648,
           "extract_sha256": "dc3564d1947b13bc8862619e439963d5d7a52e57c4f125daafc89dba915c728d",
