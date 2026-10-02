@@ -67,8 +67,8 @@
           "url": "https://github.com/LP-E/LP-E-OS/releases/download/first/Armbian-unofficial_26.11.0-trunk_Lp-e-sbc-star_bookworm_vendor_6.1.172_minimal.img",
           "extract_size": 2147483648,
           "extract_sha256": "dc3564d1947b13bc8862619e439963d5d7a52e57c4f125daafc89dba915c728d",
-          "image_download_size": 524288000,
-          "release_date": "2026-10-01",
+          "image_download_size": 1916796928,
+          "release_date": "2026-10-02",
           "init_format": "systemd",
           "devices": [
             "lp-e-sbc-star"
